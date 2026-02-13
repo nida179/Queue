@@ -7,7 +7,7 @@ This repository contains four different implementations of the Queue data struct
 
 ## 📚 Queues Types
 
-### 1. ArrayQueue
+### 1. ArrayQueue (`ArrayQueue.cpp`)
 A basic queue implementation using a static array
 **Characteristics:**
 - Fixed size array
