@@ -1,10 +1,10 @@
 ## Queue Implementation in C++
 
-ACollection of different Queue data structure implementations in C++, demonstrateing various approaches to queue mangement.
+A Collection of different Queue data structure implementations in C++, demonstrateing various approaches to queue mangement.
 
 ## 🎯 About 
 This repository contains four different implementations of the Queue data structure in C++. Each implementation demonstrate different approach to managing queues, from simple array-based to circular queues with dynamic memory allocation.
-#
+
 ## 📚 Queues Types
 
 ### 1. ArrayQueue
@@ -25,6 +25,7 @@ A queue implementation using a linked list for dynamic memory allocation.
 - No fixed size limitation
 - Grows and shrinks dynamically as needed
 - Only limited by available memory
+
 **When to use:** When queue size is unpredictable or needs to grow/shrink frequently.
 ---
 
@@ -35,6 +36,7 @@ An improved array-based queue that treats the array as circular.
 - Uses modulo arithmetic `(index + 1) % size` to wrap around
 - Efficiently reuses freed front space
 - Avoids the waste problem of basic array queue
+
 **When to use:** When you need a fixed-size queue but want to efficiently reuse memory space.
 ---
 
@@ -45,6 +47,7 @@ A dynamic queue where the last node points back to the first node.
 - Last node's next pointer points to the first node
 - Dynamic size (no fixed limit)
 - Maintains circular property: `rear->next = front`
+
 **When to use:** When you need both dynamic sizing and want to maintain circular properties for special use cases.
 ---
 
@@ -57,7 +60,8 @@ All queue implementations support the following operations:
 - ✅ **isEmpty:** Check if queue is empty
 - ✅ **isFull:** Check if queue is full (for array-based queues)
 - ✅ **getSize:** Get the number of elements in the queue
-- 
+
+
 ## 📖 Learning Resources
 **Key Concepts**
 FIFO Principle: First In, First Out
@@ -71,8 +75,10 @@ Printer queue management
 Breadth-First Search (BFS) in graphs
 Handling asynchronous data transfer
 Call center phone systems
+
 ## 🤝 Contributing
 Feel free to fork this repository and submit pull requests for any improvements!
+
 ## 📝 License
 This project is open source and available for educational purposes. 
 ## Author 
